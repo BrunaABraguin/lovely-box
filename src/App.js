@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Infos from './components/Information';
 import Main from './components/Main';
 import Plans from './components/Plans';
+import Products from './components/Products';
 import './style.css';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     <>
       <Header />
       <Main />
+      <Products />
       <Infos />
       <Plans />
       <Footer />
