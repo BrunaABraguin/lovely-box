@@ -8,7 +8,7 @@ export const Container = styled.section`
   background-image: url(${bg});
 `;
 
-export const Headline = styled.p`
+export const Headline = styled.h1`
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
