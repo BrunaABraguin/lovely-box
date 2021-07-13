@@ -13,6 +13,7 @@ export const Main = styled.main`
 `;
 
 export const Callout = styled.p`
+  cursor: default;
   color: white;
   font-weight: 700;
   font-size: 2.7rem;
@@ -75,6 +76,7 @@ export const NewsletterContainer = styled.section`
 `;
 
 export const Email = styled.input`
+  cursor: text;
   width: 40%;
   border: 1px solid #ddd;
   height: 3rem;
@@ -94,6 +96,7 @@ export const Email = styled.input`
 `;
 
 export const Button = styled.button`
+  cursor: pointer;
   color: white;
   font-weight: 600;
   height: 3.25rem;
