@@ -3,7 +3,7 @@ import React from 'react';
 import * as S from './styled';
 
 const Infos = () => {
-  return <div>infos</div>;
+  return <S.Container>infos</S.Container>;
 };
 
 export default Infos;

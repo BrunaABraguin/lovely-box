@@ -10,8 +10,6 @@ export const Footer = styled.footer`
   padding: 0.625rem 3.4375rem;
   justify-content: center;
   min-width: 100%;
-  position: absolute;
-  bottom: 0;
 `;
 
 export const HeartIcon = styled.i`

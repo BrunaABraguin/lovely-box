@@ -13,58 +13,23 @@ export const Main = styled.main`
 `;
 
 export const Callout = styled.p`
+  text-transform: uppercase;
   cursor: default;
   color: white;
   font-weight: 700;
-  font-size: 2.7rem;
+  font-size: 1.75rem;
   display: flex;
   justify-content: center;
   width: max-content;
   margin: 0;
-
-  -moz-transform: translateX(100%);
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-            -moz-animation: scroll-left 2s linear infinite;
-            -webkit-animation: scroll-left 2s linear infinite;
-            animation: scroll-left 20s linear infinite;
-        }
-        
-        @-moz-keyframes scroll-left {
-            0% {
-                -moz-transform: translateX(100%);
-            }
-            100% {
-                -moz-transform: translateX(-100%);
-            }
-        }
-        
-        @-webkit-keyframes scroll-left {
-            0% {
-                -webkit-transform: translateX(100%);
-            }
-            100% {
-                -webkit-transform: translateX(-100%);
-            }
-        }
-        
-        @keyframes scroll-left {
-            0% {
-                -moz-transform: translateX(100%);
-                -webkit-transform: translateX(100%);
-                transform: translateX(100%);
-            }
-            100% {
-                -moz-transform: translateX(-100%);
-                -webkit-transform: translateX(-100%);
-                transform: translateX(-100%);
-            }
 `;
 
 export const CalloutContainer = styled.section`
   margin-top: 6rem;
   background-color: black;
   padding: 0.8rem 0;
+  display: flex;
+  justify-content: center;
 `;
 
 export const NewsletterContainer = styled.section`

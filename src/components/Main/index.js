@@ -6,7 +6,7 @@ const Main = () => {
     <S.Main>
       <S.CalloutContainer>
         <S.Callout>
-          Se inscreva para receber promoções exclusivas como membro Challenger!
+          Inscreva-se para receber promoções exclusivas como membro Challenger!
         </S.Callout>
       </S.CalloutContainer>
       <S.NewsletterContainer>
