@@ -1,14 +1,18 @@
-import logo from './lovely_box-logo.svg';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './components/Main';
+import Plans from './components/Plans';
 import './style.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Plans />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
