@@ -63,6 +63,7 @@ export const Callout = styled.p`
 export const CalloutContainer = styled.section`
   margin-top: 6rem;
   background-color: black;
+  padding: 0.8rem 0;
 `;
 
 export const NewsletterContainer = styled.section`
