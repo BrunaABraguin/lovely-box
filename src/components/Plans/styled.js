@@ -17,6 +17,10 @@ export const Cards = styled.div`
   @media (min-width: 1024px) {
     margin: 3rem 20rem;
   }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Card = styled.div`
@@ -25,6 +29,10 @@ export const Card = styled.div`
   border-radius: 0.25rem;
   padding-bottom: 2rem;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const CardHeader = styled.p`

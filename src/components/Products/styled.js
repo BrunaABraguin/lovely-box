@@ -23,9 +23,18 @@ export const Products = styled.div`
   @media (min-width: 1024px) {
     margin: 3rem 20rem;
   }
+  @media (max-width: 500px) {
+   flex-direction: column;
+   align-items: center;
+  }
 `;
 
 export const Product = styled.img`
-  max-width: 200px;
-  max-height: 200px;
+  width: 13rem;
+  height: 13rem;
+
+  @media (max-width: 1024px) {
+    width: 10rem;
+    height: 10rem;
+  }
 `;

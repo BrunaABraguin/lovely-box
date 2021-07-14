@@ -2,15 +2,20 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   background-color: black;
-  padding: 0.7rem 3.4375rem;
-  width: 95%;
+  padding: 0.7rem 4rem 0.7rem 2rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 `;
 
 export const Logo = styled.img`
-  max-width: 170px;
+  width: 10rem;
+
+  @media (max-width: 1024px) {
+    width: 8rem;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -38,4 +43,10 @@ export const Links = styled.section`
   justify-content: space-between;
   font-size: 1.875rem;
   width: 5%;
+
+  @media (max-width: 1024px) {
+    margin: 0.7rem 3.4375rem;
+    width: 15%;
+    font-size: 1.3rem;
+  }
 `;

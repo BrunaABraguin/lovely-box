@@ -13,12 +13,13 @@ export const Main = styled.main`
   padding-bottom: 5rem;
 
   @media (max-width: 1024px) {
-    height: 100vh;
+    height: 75vh;
   }
 `;
 
 export const Callout = styled.p`
   text-transform: uppercase;
+  text-align: center;
   cursor: default;
   color: white;
   font-weight: 700;
@@ -27,6 +28,11 @@ export const Callout = styled.p`
   justify-content: center;
   width: max-content;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 1.25rem;
+    padding: 0 0.25rem;
+  }
 `;
 
 export const CalloutContainer = styled.section`
@@ -60,6 +66,10 @@ export const Email = styled.input`
   box-shadow: inset 1px 1px rgb(255 255 255 / 20%),
     inset -1px -1px rgb(255 255 255 / 10%), 1px 3px 24px -1px rgb(0 0 0 / 15%);
 
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
+
   &:focus,
   &:active {
     background-color: white;
@@ -79,6 +89,10 @@ export const Button = styled.button`
   border: 1px solid transparent;
   padding: 0 1rem;
 
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
+  
   &:focus,
   &:active {
     outline: none;
