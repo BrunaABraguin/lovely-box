@@ -38,3 +38,22 @@ export const CardHeader = styled.p`
   border-bottom: 2px black solid;
   color: white;
 `;
+
+export const Button = styled.button`
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  background-color: #9d0191;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  padding: 0 0.75rem;
+  margin-top: 1rem;
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+`;

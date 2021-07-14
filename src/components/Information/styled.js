@@ -6,16 +6,23 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 1rem 0;
+  color: #822659;
 `;
 
 export const Headline = styled.h1`
-  color: #822659;
   text-align: center;
   font-weight: 900;
   -webkit-text-stroke-color: white;
 `;
 
-export const HowTo = styled.img`
+export const Step = styled.div`
+  width: 250px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+`;
+
+export const Image = styled.img`
   width: 220px;
 `;
 

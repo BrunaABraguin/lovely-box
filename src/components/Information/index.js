@@ -9,12 +9,18 @@ const Infos = () => {
     <S.Container id='informations'>
       <S.Headline>Como funciona?</S.Headline>
       <S.HowToContainer>
-        <S.HowTo src={step1} />
-        <p>Assine um de nossos planos</p>
-        <S.HowTo src={step2} />
-        <p>Escolhemos os itens mais especiais para você</p>
-        <S.HowTo src={step3} />
-        <p>Aproveite e compartilhe! #lovelybox</p>
+        <S.Step>
+          <S.Image src={step1} />
+          <p>Assine um de nossos planos</p>
+        </S.Step>
+        <S.Step>
+          <S.Image src={step2} />
+          <p>Escolhemos os itens mais especiais para você</p>
+        </S.Step>
+        <S.Step>
+          <S.Image src={step3} />
+          <p>Aproveite e compartilhe! #lovelybox</p>
+        </S.Step>
       </S.HowToContainer>
     </S.Container>
   );
