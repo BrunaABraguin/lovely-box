@@ -10,15 +10,15 @@ const Infos = () => {
       <S.Headline>Como funciona?</S.Headline>
       <S.HowToContainer>
         <S.Step>
-          <S.Image src={step1} />
+          <S.Image src={step1} alt='Assine em um computador' />
           <p>Assine um de nossos planos</p>
         </S.Step>
         <S.Step>
-          <S.Image src={step2} />
+          <S.Image src={step2} alt='Sacola de compras' />
           <p>Escolhemos os itens mais especiais para você</p>
         </S.Step>
         <S.Step>
-          <S.Image src={step3} />
+          <S.Image src={step3} alt='Presente recebido' />
           <p>Aproveite e compartilhe! #lovelybox</p>
         </S.Step>
       </S.HowToContainer>

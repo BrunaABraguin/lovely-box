@@ -7,7 +7,7 @@ const Header = () => {
     <S.Header>
       <S.LogoContainer>
         <S.Link href='#'>
-          <S.Logo src={logo}></S.Logo>
+          <S.Logo src={logo} alt="Logo"></S.Logo>
         </S.Link>
       </S.LogoContainer>
       <S.Login href="#">Bem-vindo :) <br/>Entre ou Cadastre-se</S.Login>

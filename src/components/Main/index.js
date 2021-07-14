@@ -21,9 +21,7 @@ const Main = (props) => {
   return (
     <S.Main>
       <S.CalloutContainer>
-        <S.Callout>
-          Registre-se para receber promoções exclusivas!
-        </S.Callout>
+        <S.Callout>Registre-se para receber promoções exclusivas!</S.Callout>
       </S.CalloutContainer>
       <S.NewsletterContainer>
         <S.Email
@@ -32,6 +30,10 @@ const Main = (props) => {
           placeholder='Seu endereço de e-mail'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          id='email'
+          name='email'
+          inputmode='email'
+          autocomplete='username'
         ></S.Email>
         <S.Button onClick={sendEmail}>
           {check ? (

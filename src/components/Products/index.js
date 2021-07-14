@@ -10,10 +10,10 @@ const Products = () => {
     <S.Container>
       <S.Headline>Produtos que você ama</S.Headline>
       <S.Products>
-        <S.Product src={ headphone }></S.Product>
-        <S.Product src={ ds }></S.Product>
-        <S.Product src={ mug }></S.Product>
-        <S.Product src={ control }></S.Product>
+        <S.Product src={headphone} alt='Fone de ouvido'></S.Product>
+        <S.Product src={ds} alt='Vídeo-game'></S.Product>
+        <S.Product src={mug} alt='Caneca'></S.Product>
+        <S.Product src={control} alt='Controel de vídeo-game'></S.Product>
       </S.Products>
     </S.Container>
   );
