@@ -10,12 +10,18 @@ export const Container = styled.section`
 
 export const Headline = styled.h1`
   color: #822659;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 900;
-  font-size: 1.75rem;
+  -webkit-text-stroke-color: white;
 `;
 
 export const HowTo = styled.img`
-  min-width: 50%;
+  width: 220px;
+`;
+
+export const HowToContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  width: 60%
 `;

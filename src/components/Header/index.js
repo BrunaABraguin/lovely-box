@@ -12,10 +12,10 @@ const Header = () => {
       </S.LogoContainer>
       <S.Links>
         <S.Link href='#'>
-          <i class='bi bi-bag'></i>
+          <i className='bi bi-bag'></i>
         </S.Link>
         <S.Link href='#'>
-          <i class='bi bi-question-circle'></i>
+          <i className='bi bi-question-circle'></i>
         </S.Link>
       </S.Links>
     </S.Header>

@@ -1,12 +1,18 @@
 import React from 'react';
 import * as S from './styled';
-import howTo from '../../assets/images/how-to.png'
+import step1 from '../../assets/images/step-1.png';
+import step2 from '../../assets/images/step-2.png';
+import step3 from '../../assets/images/step-3.png';
 
 const Infos = () => {
   return (
     <S.Container>
       <S.Headline>Como funciona?</S.Headline>
-      <S.HowTo src={ howTo }></S.HowTo>
+      <S.HowToContainer>
+        <S.HowTo src={step1}></S.HowTo>
+        <S.HowTo src={step2}></S.HowTo>
+        <S.HowTo src={step3}></S.HowTo>
+      </S.HowToContainer>
     </S.Container>
   );
 };

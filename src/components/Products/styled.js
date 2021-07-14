@@ -9,10 +9,11 @@ export const Container = styled.section`
 `;
 
 export const Headline = styled.h1`
-  text-transform: uppercase;
+  color: #f8a1d1;
   text-align: center;
   font-weight: 900;
-  font-size: 1.75rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 `;
 
 export const Products = styled.div`
