@@ -19,7 +19,10 @@ export const Headline = styled.h1`
 export const Products = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 3rem 20rem;
+
+  @media (min-width: 1024px) {
+    margin: 3rem 20rem;
+  }
 `;
 
 export const Product = styled.img`

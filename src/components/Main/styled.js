@@ -2,14 +2,15 @@ import styled from 'styled-components';
 import preBlackFriday from '../../assets/images/callout_black_friday.png';
 
 export const Main = styled.main`
-  background-color: #9d0191;
-  height: 80vh;
+  background-color: black;
+  height: 85vh;
   flex-direction: column;
   background-image: url(${preBlackFriday});
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  padding-bottom: 5rem;
 
   @media (max-width: 1024px) {
     height: 100vh;
@@ -29,11 +30,15 @@ export const Callout = styled.p`
 `;
 
 export const CalloutContainer = styled.section`
-  margin-top: 6rem;
+  margin-top: -5rem;
   background-color: black;
   padding: 0.8rem 0;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1023px) {
+    margin-top: 13rem;
+  }
 `;
 
 export const NewsletterContainer = styled.section`
@@ -41,7 +46,6 @@ export const NewsletterContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 60%;
 `;
 
 export const Email = styled.input`
@@ -80,4 +84,9 @@ export const Button = styled.button`
     outline: none;
     box-shadow: none;
   }
+`;
+
+export const CheckIcon = styled.i`
+  color: springgreen;
+  font-weight: 900;
 `;

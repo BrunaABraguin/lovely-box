@@ -3,7 +3,7 @@ import * as S from './styled';
 
 const Plans = () => {
   return (
-    <S.Container>
+    <S.Container id="plans">
       <S.Headline>Planos</S.Headline>
       <S.Cards>
         <S.Card>

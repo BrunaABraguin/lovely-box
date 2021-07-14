@@ -6,7 +6,7 @@ import step3 from '../../assets/images/step-3.png';
 
 const Infos = () => {
   return (
-    <S.Container>
+    <S.Container id="informations">
       <S.Headline>Como funciona?</S.Headline>
       <S.HowToContainer>
         <S.HowTo src={step1}></S.HowTo>
