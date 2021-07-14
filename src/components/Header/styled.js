@@ -4,7 +4,6 @@ export const Header = styled.header`
   background-color: black;
   padding: 0.7rem 3.4375rem;
   width: 95%;
-  height: 6vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +15,16 @@ export const Logo = styled.img`
 
 export const LogoContainer = styled.div`
   width: 80%;
+`;
+
+export const Login = styled.a`
+  font-weight: 800;
+  color: white;
+  width: 13%;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const Link = styled.a`

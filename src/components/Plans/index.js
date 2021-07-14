@@ -3,17 +3,26 @@ import * as S from './styled';
 
 const Plans = () => {
   return (
-    <S.Container id="plans">
+    <S.Container id='plans'>
       <S.Headline>Planos</S.Headline>
       <S.Cards>
         <S.Card>
           <S.CardHeader>Platina</S.CardHeader>
+          <h2>R$ 100.00</h2>
+          <h3>2~3 Itens</h3>
+          <button>Assinar</button>
         </S.Card>
         <S.Card>
           <S.CardHeader>Diamante</S.CardHeader>
+          <h2>R$ 300.00</h2>
+          <h3>4~5 Itens</h3>
+          <button>Assinar</button>
         </S.Card>
         <S.Card>
           <S.CardHeader>Mestre</S.CardHeader>
+          <h2>R$ 500.00</h2>
+          <h3>7+ Itens</h3>
+          <button>Assinar</button>
         </S.Card>
       </S.Cards>
     </S.Container>

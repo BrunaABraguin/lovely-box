@@ -10,6 +10,7 @@ const Header = () => {
           <S.Logo src={logo}></S.Logo>
         </S.Link>
       </S.LogoContainer>
+      <S.Login href="#">Bem-vindo :) <br/>Entre ou Cadastre-se</S.Login>
       <S.Links>
         <S.Link href='#plans'>
           <i className='bi bi-bag'></i>

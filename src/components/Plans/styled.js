@@ -20,10 +20,11 @@ export const Cards = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 350px;
-  height: 300px;
+  width: 20rem;
   background-color: white;
   border-radius: 0.25rem;
+  padding-bottom: 2rem;
+  text-align: center;
 `;
 
 export const CardHeader = styled.p`

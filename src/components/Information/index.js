@@ -6,12 +6,15 @@ import step3 from '../../assets/images/step-3.png';
 
 const Infos = () => {
   return (
-    <S.Container id="informations">
+    <S.Container id='informations'>
       <S.Headline>Como funciona?</S.Headline>
       <S.HowToContainer>
-        <S.HowTo src={step1}></S.HowTo>
-        <S.HowTo src={step2}></S.HowTo>
-        <S.HowTo src={step3}></S.HowTo>
+        <S.HowTo src={step1} />
+        <p>Assine um de nossos planos</p>
+        <S.HowTo src={step2} />
+        <p>Escolhemos os itens mais especiais para você</p>
+        <S.HowTo src={step3} />
+        <p>Aproveite e compartilhe! #lovelybox</p>
       </S.HowToContainer>
     </S.Container>
   );
