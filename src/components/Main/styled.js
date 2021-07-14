@@ -13,7 +13,8 @@ export const Main = styled.main`
   padding-bottom: 5rem;
 
   @media (max-width: 1024px) {
-    height: 75vh;
+    height: 50vh;
+    padding-bottom: 2rem;
   }
 `;
 

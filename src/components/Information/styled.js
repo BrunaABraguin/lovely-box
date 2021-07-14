@@ -24,11 +24,20 @@ export const Step = styled.div`
 
 export const Image = styled.img`
   width: 220px;
+
+  @media (min-width: 798px) and (max-width: 1200px) {
+    width: 150px;
+  }
 `;
 
 export const HowToContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 3rem 0;
-  width: 60%
+  width: 60%;
+
+  @media (max-width: 798px) {
+    align-items: center;
+    flex-direction: column;
+  }
 `;

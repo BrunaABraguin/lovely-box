@@ -7,7 +7,6 @@ export const Footer = styled.footer`
   display: flex;
   flex-direction: column;
   font-weight: 600;
-  height: 10vh;
   justify-content: center;
   min-width: 100%;
 `;
@@ -17,7 +16,7 @@ export const HeartIcon = styled.i`
 `;
 
 export const Links = styled.section`
-  margin: 2rem 0.5rem;
+  padding: 1rem 0.5rem;
 `;
 
 export const Link = styled.a`
@@ -25,3 +24,9 @@ export const Link = styled.a`
   font-size: 2rem;
   margin: 2rem 0.5rem;
 `;
+
+export const Assignature = styled.section`
+  padding: 0 2rem;
+  text-align: center;
+`;
+

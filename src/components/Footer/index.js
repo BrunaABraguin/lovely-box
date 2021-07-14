@@ -4,10 +4,10 @@ import * as S from './styled';
 const Footer = () => {
   return (
     <S.Footer>
-      <section>
+      <S.Assignature>
         Made with <S.HeartIcon className='bi bi-suit-heart-fill'></S.HeartIcon>{' '}
         by Bruna de Andrade Braguin | 2021
-      </section>
+      </S.Assignature>
       <S.Links>
         <S.Link href='https://github.com/BrunaABraguin'>
           <i className='bi bi-github'></i>

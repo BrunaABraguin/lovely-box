@@ -14,6 +14,8 @@ export const Headline = styled.h1`
 export const Cards = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  
   @media (min-width: 1024px) {
     margin: 3rem 20rem;
   }
