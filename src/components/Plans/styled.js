@@ -18,8 +18,8 @@ export const Cards = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 260px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
   background-color: white;
   border-radius: 0.25rem;
 `;

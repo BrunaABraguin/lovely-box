@@ -6,10 +6,14 @@ export const Main = styled.main`
   height: 80vh;
   flex-direction: column;
   background-image: url(${preBlackFriday});
-  background-size: cover;
-  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
+
+  @media (max-width: 1024px) {
+    height: 100vh;
+  }
 `;
 
 export const Callout = styled.p`
