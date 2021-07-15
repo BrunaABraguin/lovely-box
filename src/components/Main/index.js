@@ -27,7 +27,7 @@ const Main = (props) => {
         <S.Email
           type='email'
           required='required'
-          placeholder='Seu endereço de e-mail'
+          placeholder='Seu e-mail'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           id='email'
